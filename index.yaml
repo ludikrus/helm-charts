@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  cloudeng-ecmp-secret:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-01-28T23:28:15.56146671Z"
+    description: Helm Chart to deploy a k8s secret from either AWS Secrets Manager
+      or Azure Key Vault
+    digest: 2d4a65107764203dc1a0baa98cf72b286e337056dc5976bb94bbbbf36051d8f5
+    name: cloudeng-ecmp-secret
+    type: application
+    urls:
+    - cloudeng-ecmp-secret-1.2.0.tgz
+    version: 1.2.0
+  example:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-28T23:28:15.786776556Z"
+    description: A Helm chart for Kubernetes
+    digest: d42281490698b85c48cdc66ea00a0585293f7bf9fa1aec45e5134319d0c8c564
+    name: example
+    type: application
+    urls:
+    - example-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-28T23:28:15.786781856Z"
