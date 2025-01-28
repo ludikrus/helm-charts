@@ -1,0 +1,11 @@
+platform: ""
+serviceAccountName: ""
+
+# The following values are required if `platform` is set to `awsSecretsManager`
+region: ""
+roleArn: ""
+
+# The following values are required if `platform` is set to `azureKeyVault`
+vaultUrl: ""
+tenantId: ""
+msiClientId: ""
